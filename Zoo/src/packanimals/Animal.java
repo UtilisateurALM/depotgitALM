@@ -4,6 +4,10 @@ public class Animal {
 int poids;
 int age;
 
+public Animal(){
+
+}
+
 public Animal(int poids, int age) {
 	
 	this.poids = poids;
@@ -16,7 +20,7 @@ public void manger(){
 
 @Override
 public String toString() {
-	return "Animal [poids=" + poids + ", age=" + age + "]";
+	return "L'animal pèse " + poids + " kg et a " + age + " ans";
 }
 
 
