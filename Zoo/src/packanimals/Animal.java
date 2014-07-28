@@ -1,6 +1,6 @@
 package packanimals;
 
-public class Animal {
+public abstract class Animal {
 int poids;
 int age;
 
