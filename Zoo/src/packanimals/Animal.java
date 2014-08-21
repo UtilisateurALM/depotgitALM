@@ -20,7 +20,7 @@ public void manger(){
 
 @Override
 public String toString() {
-	return "L'animal pèse " + poids + " kg et a " + age + " ans";
+	return "L'animal pèse TU PEEEESSEEEES  " + poids + " kg et a " + age + " ans";
 }
 
 
