@@ -7,6 +7,8 @@ public class Monzoo {
 		Chien c = new Chien(25,3);
 		Lion l = new Lion(30,4);
 		
+		Lion simba = new Lion(12,6);
+		
 		System.out.println(a);
 		System.out.println(c);
 		System.out.println(l);
@@ -14,6 +16,7 @@ public class Monzoo {
 		a.manger();
 		c.manger();
 		l.manger();
+		simba.manger();
 	}
 
 }
