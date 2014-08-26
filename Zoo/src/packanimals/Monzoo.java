@@ -10,10 +10,13 @@ public class Monzoo {
 		Lion simba = new Lion(12,6);
 		Animal mufasa = new Lion(15,9);
 		
+		Chien dog = new Chien(12,2);
+		
 		System.out.println(a);
 		System.out.println(c);
 		System.out.println(l);
 		System.out.println(mufasa);
+		System.out.println(dog);
 		
 		a.manger();
 		c.manger();
