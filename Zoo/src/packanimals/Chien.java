@@ -4,7 +4,8 @@ public class Chien extends Animal {
 
 	
 	public Chien(int poids, int age) {
-		super(poids, age);
+		this.poids = poids;
+		this.age = age;
 	
 	}
 	

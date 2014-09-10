@@ -3,8 +3,8 @@ package packanimals;
 public class Lion extends Animal {
 
 	public Lion(int poids, int age) {
-		super(poids, age);
-		
+		this.poids = poids;
+		this.age = age;
 		
 	}
 	public void manger(){
